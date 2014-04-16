@@ -1,0 +1,23 @@
+{
+    "name": "wgunderound",
+    "version": "0.0.1",
+    "main": "./index.js",
+    "description": "Wunderground API module for Node",
+    "author": "Matt Carter @technotronium",
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/TechnotronicOz/wgunderound/blob/master/LICENSE"
+    }],
+    "dependencies": {
+        "url": "=0.7.9",
+        "limiter": "=1.0.3",
+        "q": "=1.0.1"
+    },
+    "devDependencies": {
+        "express": "=3.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/technotronicoz/wgunderound.git"
+    }
+}
