@@ -1,6 +1,6 @@
 {
     "name": "wgunderound",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "./index.js",
     "description": "Wunderground API module for Node",
     "author": "Matt Carter @technotronium",
@@ -11,7 +11,8 @@
     "dependencies": {
         "url": "=0.7.9",
         "limiter": "=1.0.3",
-        "q": "=1.0.1"
+        "q": "=1.0.1",
+        "redis": "^0.10.1"
     },
     "devDependencies": {
         "express": "=3.0"
